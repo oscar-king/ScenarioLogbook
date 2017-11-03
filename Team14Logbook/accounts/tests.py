@@ -12,7 +12,7 @@ class LoginTest(LiveServerTestCase):
 
 	def setUp(self):
 
-		self.driver = webdriver.Chrome('/Users/sonik/Downloads/chromedriver')
+		self.driver = webdriver.Chrome('/home/scenariouser123/.local/lib/python3.5/site-packages')
 
 		super(LoginTest, self).setUp()
 
